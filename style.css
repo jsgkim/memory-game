@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#startButton {
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  right: 110px;
+  margin: 10px 0;
+}
+
+#container {
+  width: 700px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
+  width: 200px;
+  height: 200px;
+  background-color: Lavender;
+  margin: 5px;
+  transition: background-color 1s;
+}
+
+.active {
+  background-color: white;
+}
